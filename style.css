@@ -1,0 +1,45 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+#message{
+    margin: 0.8rem;
+    margin-top: 0.5em;
+    font-size : 2em;
+    padding: 5px;
+    text-align: center;
+}
+#winner{
+    font-size: 1.5rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#newGame{
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+    padding: 1.5rem 3rem;
+    background-color: limegreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+canvas{
+    background-color: white;
+    outline: solid;
+    outline-style: groove;
+    outline-width: 1.3rem;
+}

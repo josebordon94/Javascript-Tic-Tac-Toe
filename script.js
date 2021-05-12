@@ -1,3 +1,9 @@
+ /**
+ * @fileoverview Simply Javascript Tic-tac-toe
+ * @version                               1.0
+ * @author                 José Bordón <josebordon1994@gmail.com>
+ */
+
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
